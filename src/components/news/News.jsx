@@ -11,6 +11,10 @@ const News = () => {
     let path = `/all`; 
     history.push(path);
     }
+    const routeChange2 = () =>{ 
+        let path = `/details`; 
+        history.push(path);
+    }
   return (
     <div className='news'>
         <div className='top'>
@@ -18,19 +22,19 @@ const News = () => {
             <h5 onClick={routeChange}>Бүгдийг үзэх</h5>
         </div>
         <div className='bottom'>
-            <div>
+            <div onClick={routeChange2}>
                 <img loading='lazy' src={img1} />
                 <span>АЛТАН ОХИН” М.АНХЦЭЦЭГ
                 Монгол эмэгтэйн тэсвэр хатуужил, хүч чадлыг дэлхийд батлан харуулсан гавьяат тамирчин М.Анхцэцэгийн хаа ч нээгээгүй ховор түүхийг өгүүлсэн “АЛТАН ОХИН” нэвтрүүлгийг үзэгч та бүхэнд өргөн барьж байна.
                 </span>
             </div>
-            <div>
+            <div onClick={routeChange2}>
                  <img loading='lazy' src={img2} />
                 <span>
                 Монголын хүндийн өргөлтийн холбооны 65 жилийн ойн хүндэтгэлийн арга хэмжээн дээр Х.МАНДАХБАЯР захиралтай ЭРХЭТ МОНГОЛ ГРУППТ тус холбооноос “АЛТАН ТҮНШ” хэмээх хүндлэл үзүүлж, ДЭЛХИЙН АВАРГА М.АНХЦЭЦЭГ-ийн дүр бүхий хүрэл ЦОМ хүртээлээ 
                 </span>
             </div>
-            <div>
+            <div onClick={routeChange2}>
                  <img loading='lazy' src={img3} />
                 <span>
                 “Grand Residence” шинэ үеийн цогцолбор хороолол I, II ээлжийн зургаан блок орон сууцаа худалдаанд гаргаж, нээлтийн урамшуулал болгон 1 м.кв-ын үнээ 1.880.000 төгрөгөөс эхэлж буйгаа зарлалаа
