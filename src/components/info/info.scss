@@ -1,0 +1,10 @@
+.info {
+  width: 100%;
+  max-width: 830px;
+  margin-left: 320px;
+  padding: 40px 50px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  > h2 , h3 , h4 {
+      font-family: var(--main-font);
+  }
+}

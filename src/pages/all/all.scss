@@ -1,0 +1,42 @@
+.all {
+    > h2 {
+        font-family: var(--main-font);
+        font-size: 18px;
+        padding-left: 170px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 20px;
+        border-bottom-width: 80%;
+    }
+    .container {
+        width: 100%;
+        display: flex;
+        max-width: 1280px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        .wrapper {
+            display: grid;
+            grid-template-columns: 31.563vw 31.563vw;
+            justify-content: center;
+            grid-gap: 65px;
+            font-family: var(--main-font);
+            > div {
+                img {
+                    width: 31.563vw;
+                }
+                > h4 {
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 5px;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                }
+                > div {
+                    margin-top: -0.521vw;
+                    height: 6.615vw;
+                    width: 31.563vw;
+                    background-color: #031544;
+                }
+            }
+        }
+    }
+}

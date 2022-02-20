@@ -1,0 +1,33 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    margin-left: 30px;
+    > div {
+        position: relative;
+        > img {
+            width: 20.469vw;
+        }
+        > button {
+            position: absolute;
+            left: 180px;
+            top: 224px;
+            width: 212px;
+            height: 44px;
+            background-color: #031544;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            color: #fff;
+            font-family: var(--main-font);
+            font-size: 18px;
+            text-transform: uppercase;
+            cursor: pointer;
+            border: none;
+        }
+        > p {
+            width: 20.469vw;
+            font-family: var(--main-color);
+        }
+    }
+}

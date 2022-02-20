@@ -1,0 +1,43 @@
+.society {
+    .bg {
+        > img {
+            width: 100%;
+            height: 700px;
+            max-width: 1920px;
+            object-fit: cover;
+        }
+    }
+    .s-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.125vw;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3.646vw 3.646vw 0;
+        width: 66.667vw;
+        height: 90.104vw;
+        max-width: 1280px;
+        background-color: #fff;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        > h2 {
+            font-family: var(--main-font);
+            font-size: 1.875vw;
+            color: #031544;
+            font-weight: 500;
+            line-height: 1.042vw;
+            border-bottom: 2px solid #AE8B54;
+            padding-bottom: 20px;
+        }
+        > ul {
+            > li {
+                font-family: var(--main-font);
+                font-size: 0.938vw;
+                color: #000;
+                margin-top: 3.125vw;
+            }
+            > li:last-of-type {
+                list-style-type: none;
+            }
+        }
+    }
+}

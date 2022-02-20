@@ -1,0 +1,44 @@
+.news {
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        > h2 {
+            margin-left: 130px;
+            font-size: 36px;
+            font-family: var(--main-font);
+            text-align: left;
+        }
+        > h5 {
+            margin-right: 145px;
+            font-size: 18px;
+            font-family: var(--main-font);
+            cursor: pointer;
+        }
+    }
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        > div {
+            width: 485px;
+            > span {
+                display: inline-flex;
+                font-family: var(--main-font);
+                font-size: 0.938vw;
+                text-align: left;
+                letter-spacing: 0.1em;
+                margin-top: 40px;
+            }
+            > img {
+                width: 24.583vw;
+            }
+        }
+        > div:first-of-type {
+            margin-left: 130px;
+        }
+        > div:last-of-type {
+            margin-right: 130px;
+        }
+    }
+}

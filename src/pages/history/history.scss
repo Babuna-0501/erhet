@@ -1,0 +1,32 @@
+.history {
+    .bg {
+        > img {
+            width: 100%;
+            max-width: 1920px;
+            height: 37.135vw;
+            object-fit: cover;
+        }
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.604vw;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        width: 61.458vw;
+        height: 28.906vw;
+        max-width: 1181px;
+        padding: 3.646vw 3.646vw 0;
+        font-family: var(--main-font);
+        > h3 {
+            border-bottom: 2px solid #AE8B54;
+            padding-bottom: 1.042vw;
+            font-size: 1.875vw;
+        }
+        > p {
+            font-size: 0.938vw;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1920px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 50px;
+    .logo {
+        width: 278px;
+        height: 94px;
+        margin-left: 178px;
+    }
+    .search {
+        position: relative;
+        margin-right: 227px;
+        .icon {
+            position: absolute;
+        }
+        input {
+            padding: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+    }
+}
