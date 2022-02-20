@@ -12,6 +12,10 @@ export default function Header() {
   let path = `/`; 
   history.push(path);
   }
+  const routeChange2 = () =>{ 
+    let path = `/history`; 
+    history.push(path);
+  }
 
 
   return (
@@ -20,7 +24,7 @@ export default function Header() {
             <span onClick={routeChange}>Нүүр</span>
             <span>Бидний тухай</span>
             <span>Бизнесийн салбар</span>
-            <span>Тогтвортой хөгжил</span>
+            <span onClick={routeChange2}>Тогтвортой хөгжил</span>
             <span>Мэдээ мэдээлэл</span>
         </div>
         <div className='right'>
